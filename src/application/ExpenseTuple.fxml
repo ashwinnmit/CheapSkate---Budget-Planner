@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="40.0" prefWidth="350.0" spacing="10.0" style="-fx-background-color: #33c78b;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ExpenseTuple">
+   <children>
+      <Label fx:id="date" text="22/07/22" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <Label fx:id="time" text="11:17" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </HBox.margin>
+      </Label>
+      <Label fx:id="amount" text="690" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </HBox.margin>
+      </Label>
+      <ComboBox fx:id="choice" prefHeight="26.0" prefWidth="73.0">
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin>
+      </ComboBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</HBox>
